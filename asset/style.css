@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: #f5f5f5;
+    /* Light gray background */
+}
+
+.container {
+    border: 2px solid #ccc;
+    /* Light gray border */
+    border-radius: 10px;
+    width: 40%;
+    margin-top: 40px;
+    padding: 30px;
+    text-align: center;
+    background-color: #fff;
+    /* White background */
+}
+
+h1 {
+    font-weight: bolder;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    color: #333;
+    /* Dark gray text */
+}
+.inputs>a{
+    text-decoration: none;
+    color:#040281ab;
+    font-size: 1.5rem;
+}
+.inputs {
+    text-align: left;
+    width: 80%;
+    margin: auto;
+}
+
+.inputs>label {
+    font-weight: bold;
+    color: #555;
+    /* Dark gray text */
+}
+
+input {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    /* Light gray border */
+    background-color: #f9f9f9;
+    /* Light gray background */
+    color: #333;
+    /* Dark gray text */
+}
+
+#login {
+    background-color: #007bff;
+    /* Blue button */
+    color: #fff;
+    /* White text */
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    /* Add pointer cursor on hover */
+}
+
+#login:hover {
+    background-color: #0056b3;
+    /* Darker blue on hover */
+}
+
+#login:active {
+    background-color: #004080;
+    /* Darker blue on click */
+}
