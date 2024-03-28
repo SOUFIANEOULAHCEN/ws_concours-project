@@ -13,7 +13,7 @@
 
 <body class="bg-dark text-light">
     <header class="container text-light text-center bg-danger  p-3 mt-4 mb-5 rounded">
-        <h1>Liste des produits</h1>
+        <h1>Modifier Le Produit</h1>
     </header>
     <main class="container">
         <?php
